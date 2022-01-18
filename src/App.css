@@ -461,3 +461,8 @@ body{
       border-color: white;
       
   }
+.p1div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

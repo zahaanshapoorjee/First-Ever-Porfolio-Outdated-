@@ -10,7 +10,7 @@ export default function Projects()
         <div className='firstscrollup'><Link to='section2'smooth={true} ><FontAwesomeIcon icon={faAngleDoubleUp} size="2x" className='firstscrollupicon'></FontAwesomeIcon></Link></div>
         <h1 className='projectsText'>PROJECTS</h1>
         <div className='projects'>
-           <div ><img src={require('../Assets/project1.png')} alt='Failed to Load' className='project1'></img><h1 className='project1header'><u>Zahaan.com</u></h1>
+           <div className='p1div' ><img  src={require('../Assets/project1.png')} alt='Failed to Load' className='project1'></img><h1 className='project1header'><u>Zahaan.com</u></h1>
            <p id="project1info">Skills Used: HTML, CSS, JavaScript, React</p>
            </div>
         </div>
