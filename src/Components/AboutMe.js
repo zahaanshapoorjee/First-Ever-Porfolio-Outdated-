@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-scroll/modules';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleDown} from '@fortawesome/free-solid-svg-icons';
-import { useEffect } from 'react/cjs/react.development';
 import SocialMedia from './SocialMedia';
 export default function AboutMe()
 {
