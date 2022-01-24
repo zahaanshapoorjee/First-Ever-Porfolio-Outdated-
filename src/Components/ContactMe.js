@@ -19,7 +19,7 @@ export default function ContactMe(){
       }, (error) => {
           console.log(error.text);
       });
-      this.name='';
+      form.current.reset()
   };
 
   return (
@@ -34,7 +34,7 @@ export default function ContactMe(){
     <input type="email" name="user_email" className='emailid' /><br></br>
     <label>Message</label>
     <textarea name="message" className='messagetome' />
-    <input type="submit" value="Send" />
+    <input type="submit" value="Send" className='contact-form-submit-button'/>
     </form>
     </div>
 </div>
