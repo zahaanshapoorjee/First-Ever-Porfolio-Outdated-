@@ -19,6 +19,7 @@ export default function ContactMe(){
       }, (error) => {
           console.log(error.text);
       });
+      alert('Message Sent Successfully!')
       form.current.reset()
   };
 
