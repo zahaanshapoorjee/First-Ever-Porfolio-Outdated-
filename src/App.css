@@ -1,5 +1,5 @@
 body{
-  background-image: linear-gradient(to right,#cc2b5e, #753a88,#185a9d, #43cea2);
+  background-image: linear-gradient(to right,#cc2b5e, #753a88,#185a9d);
   background-size: 400%;
   background-position: right;
   height: 100vh;
@@ -150,12 +150,12 @@ body{
       border-bottom-right-radius: 20px;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d, #43cea2);
+      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
       background-size: 400%;
       background-position: right;
       width: 0%;
       animation-iteration-count: 1;
-      animation: gradientAnimationMeters1 4s ease, gradientAnimation 8s infinite;
+      animation: gradientAnimationMeters1 3s ease, gradientAnimation 7s infinite;
       animation-play-state: paused;
     }
     .meter2{
@@ -165,11 +165,11 @@ body{
       border-bottom-right-radius: 20px;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d, #43cea2);
+      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
       background-size: 400%;
       background-position: right;
       width: 0%;
-      animation: gradientAnimationMeters2 4s ease, gradientAnimation 8s infinite;
+      animation: gradientAnimationMeters2 3s ease, gradientAnimation 7s infinite;
       animation-play-state: paused;
     }
     .meter3{
@@ -179,11 +179,11 @@ body{
       border-bottom-right-radius: 20px;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d, #43cea2);
+      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
       background-size: 400%;
       background-position: right;
       width: 0%;
-      animation:gradientAnimationMeters3 4s ease, gradientAnimation 8s infinite;
+      animation:gradientAnimationMeters3 3s ease, gradientAnimation 7s infinite;
       animation-play-state: paused;
     }
     .meter4{
@@ -193,11 +193,11 @@ body{
       border-bottom-right-radius: 20px;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d, #43cea2);
+      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
       background-size: 400%;
       background-position: right;
       width: 0%;
-      animation:gradientAnimationMeters4 4s ease, gradientAnimation 8s infinite;
+      animation:gradientAnimationMeters4 3s ease, gradientAnimation 7s infinite;
       animation-play-state: paused;
     }
     .meter5{
@@ -207,11 +207,11 @@ body{
       border-bottom-right-radius: 20px;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d, #43cea2);
+      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
       background-size: 400%;
       background-position: right;
       width: 0%;
-      animation:gradientAnimationMeters5 4s ease, gradientAnimation 8s infinite;
+      animation:gradientAnimationMeters5 3s ease, gradientAnimation 7s infinite;
       animation-play-state: paused;
     }
     .meter6{
@@ -221,11 +221,11 @@ body{
       border-bottom-right-radius: 20px;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d, #43cea2);
+      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
       background-size: 400%;
       background-position: right;
       width: 0%;
-      animation:gradientAnimationMeters6 4s ease, gradientAnimation 8s infinite;
+      animation:gradientAnimationMeters6 3s ease, gradientAnimation 7s infinite;
       animation-play-state: paused;
     }
     .meter7{
@@ -235,11 +235,11 @@ body{
       border-bottom-right-radius: 20px;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d, #43cea2);
+      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
       background-size: 400%;
       background-position: right;
       width: 0%;
-      animation:gradientAnimationMeters7 4s ease, gradientAnimation 8s infinite;
+      animation:gradientAnimationMeters7 3s ease, gradientAnimation 7s infinite;
       animation-play-state: paused;
     }
     .parentSkillsDiv{
@@ -427,7 +427,7 @@ body{
       height: 3vh;
       font-size: 85%;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-      background-image: linear-gradient(to right,#cc2b5e, #753a88,#185a9d, #43cea2);
+      background-image: linear-gradient(to right,#cc2b5e, #753a88,#185a9d);
       background-size: 400%;
       background-position: left;
       animation:gradientAnimation 15s ease infinite ;
@@ -442,7 +442,7 @@ body{
       height: 3vh;
       font-size: 85%;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      background-image: linear-gradient(to right,#cc2b5e, #753a88,#185a9d, #43cea2);
+      background-image: linear-gradient(to right,#cc2b5e, #753a88,#185a9d);
       background-size: 400%;
       background-position: left;
       animation:gradientAnimation 15s ease infinite ;
@@ -457,7 +457,7 @@ body{
       height: 20vh;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
       font-size: 14px;
-      background-image: linear-gradient(to right,#cc2b5e, #753a88,#185a9d, #43cea2);
+      background-image: linear-gradient(to right,#cc2b5e, #753a88,#185a9d);
       background-size: 400%;
       background-position: left;
       animation:gradientAnimation 15s ease infinite ;
@@ -478,7 +478,7 @@ body{
     height: 3vh;
     width: 5vw;
     margin-top: 2vh;
-    background-image: linear-gradient(to right,#cc2b5e, #753a88,#185a9d, #43cea2); 
+    background-image: linear-gradient(to right,#cc2b5e, #753a88,#185a9d); 
     background-size: 400%;
     background-position: left;
     animation:gradientAnimation 15s ease infinite ;
