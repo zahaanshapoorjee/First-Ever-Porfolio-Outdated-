@@ -20,7 +20,6 @@ export default function ContactMe(){
           console.log(error.text);
       });
       alert('Message Sent Successfully!')
-      axios.post()
       setinfo({name:'',email:'',message:''})
       form.current.reset()
   };
