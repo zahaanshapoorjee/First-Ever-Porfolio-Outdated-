@@ -12,6 +12,9 @@ export default function ContactMe(){
   const[info,setinfo]=useState({name:'',email:'',message:''})
   const sendEmail = (e) => {
     e.preventDefault();
+    axios.post('https://stormy-reef-21493.herokuapp.com/emails',info).then((response)=>{
+      console.log(response)
+    })
     console.log(info)
     emailjs.sendForm('service_traivfp', 'template_8wz0o0k', form.current, 'user_CvZDaEUr3zVvwuQ85PqYh')
       .then((result) => {
@@ -19,10 +22,7 @@ export default function ContactMe(){
       }, (error) => {
           console.log(error.text);
       });
-       axios.post('https://stormy-reef-21493.herokuapp.com/emails',form.current).then((response)=>{
-         console.log(response)
-       })
-      console.log(form.current)
+     
       alert('Message Sent Successfully!')
       setinfo({name:'',email:'',message:''})
       form.current.reset()
