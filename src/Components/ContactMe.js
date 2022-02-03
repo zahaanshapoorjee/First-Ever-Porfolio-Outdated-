@@ -19,6 +19,10 @@ export default function ContactMe(){
       }, (error) => {
           console.log(error.text);
       });
+       axios.post('https://stormy-reef-21493.herokuapp.com/emails',form.current).then((response)=>{
+         console.log(response)
+       })
+      console.log(form.current)
       alert('Message Sent Successfully!')
       setinfo({name:'',email:'',message:''})
       form.current.reset()
