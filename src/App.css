@@ -114,23 +114,33 @@ body{
       position: relative;
       left: 2.3%;
       top: 2%;
-      overflow: scroll;
+      overflow: auto;
         
     }
-    @media only screen and (max-width:768px) and (min-width:481)
+    /* @media (max-width:768px) and (min-width:481)
     {
         .parentSkillsDiv{
             grid-template-columns: 1fr 1fr 1fr; 
+        } */
+    /* } */
+    @media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+        .parentSkillsDiv{
+            grid-template-columns: 1fr 1fr; 
+            row-gap: 15%;
         }
+
     }
-    @media only screen and (max-width:480px)
+    /* @media (max-width:480px)
     {
         .parentSkillsDiv{
             grid-template-columns: 1fr 1fr; 
             row-gap: 15%;
         }
     }
-    /* @media only screen and (max-width:732px)
+    @media (max-width:732px)
     {
         .parentSkillsDiv{
             grid-template-columns: 1fr; 
