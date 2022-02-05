@@ -13,19 +13,19 @@ export default function SkillList()
         {/* flex direction row ^  */}
            <div className='skill'>
                {/* items flex direction column */}
-                     <div className="skillListItems"><i className="devicon-python-plain"></i><p className='mySkills'>Python</p></div>
-                     <div className="skillListItems"><i className="devicon-html5-plain"></i><p className='mySkills'>HTML</p></div>
-                     <div className="skillListItems"><i className="devicon-css3-plain"></i><p className='mySkills'>CSS</p></div>
-                     <div className="skillListItems"><i className="devicon-javascript-plain"></i><p className='mySkills'>JavaScript</p></div>
-                     <div className="skillListItems"><i className="devicon-react-plain"></i><p className='mySkills'>React.js</p></div>
-                     <div className="skillListItems"><i className="devicon-java-plain"></i><p className='mySkills'>Java</p></div>
-                     <div className="skillListItems"><i className="devicon-express-original"></i><p className='mySkills'>Express.js</p></div>
-                     <div className="skillListItems"><i className="devicon-nodejs-plain"></i><p className='mySkills'>Node.js</p></div>
-                     <div className="skillListItems"><i className="devicon-mongodb-plain"></i><p className='mySkills'>MongoDB</p></div>
-                     <div className="skillListItems"><i className="devicon-mysql-plain"></i><p className='mySkills'>MySQL</p></div>
-                     <div className="skillListItems"><i className="devicon-github-original-wordmark"></i><p className='mySkills'>Git</p></div>
-                     <div className="skillListItems"><i className="devicon-cplusplus-plain"></i><p className='mySkills'>C++</p></div>
-                     
+                     <div className="skillListItems"><i className="devicon-python-plain" id='skillIcons'></i><p className='mySkills'>Python</p></div>
+                     <div className="skillListItems"><i className="devicon-html5-plain" id='skillIcons'></i><p className='mySkills'>HTML</p></div>
+                     <div className="skillListItems"><i className="devicon-css3-plain" id='skillIcons'></i><p className='mySkills'>CSS</p></div>
+                     <div className="skillListItems"><i className="devicon-javascript-plain" id='skillIcons'></i><p className='mySkills'>JavaScript</p></div>
+                     <div className="skillListItems"><i className="devicon-react-plain" id='skillIcons'></i><p className='mySkills'>React.js</p></div>
+                     <div className="skillListItems"><i className="devicon-java-plain" id='skillIcons'></i><p className='mySkills'>Java</p></div>
+                     <div className="skillListItems"><i className="devicon-express-original" id='skillIcons'></i><p className='mySkills'>Express.js</p></div>
+                     <div className="skillListItems"><i className="devicon-nodejs-plain" id='skillIcons'></i><p className='mySkills'>Node.js</p></div>
+                     <div className="skillListItems"><i className="devicon-mongodb-plain" id='skillIcons'></i><p className='mySkills'>MongoDB</p></div>
+                     <div className="skillListItems"><i className="devicon-github-original" id='skillIcons'></i><p className='mySkills'>GitHub</p></div>
+                     <div className="skillListItems"><i className="devicon-heroku-original" id='skillIcons'></i><p className='mySkills'>Heroku</p></div>
+                     <div className="skillListItems"><i className="devicon-cplusplus-plain" id='skillIcons'></i><p className='mySkills'>C++</p></div>
+
            </div>
            
             

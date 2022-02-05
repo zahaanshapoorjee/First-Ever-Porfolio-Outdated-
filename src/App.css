@@ -13,41 +13,6 @@ body{
       50% {background-position: left;}
       100% {background-position: right;}
   }
-  @keyframes gradientAnimationMeters1{
-      0% {background-position: right;width:0%;}
-      50% {background-position: left;}
-      100% {background-position: right;width: 70%;}
-  }
-  @keyframes gradientAnimationMeters2{
-      0% {background-position: right;width:0%;}
-      50% {background-position: left;}
-      100% {background-position: right;width: 85%;}
-  }
-  @keyframes gradientAnimationMeters3{
-      0% {background-position: right;width:0%;}
-      50% {background-position: left;}
-      100% {background-position: right;width: 75%;}
-  }
-  @keyframes gradientAnimationMeters4{
-      0% {background-position: right;width:0%;}
-      50% {background-position: left;}
-      100% {background-position: right;width: 60%;}
-  }
-  @keyframes gradientAnimationMeters5{
-      0% {background-position: right;width:0%;}
-      50% {background-position: left;}
-      100% {background-position: right;width: 55%;}
-  }
-  @keyframes gradientAnimationMeters6{
-      0% {background-position: right;width:0%;}
-      50% {background-position: left;}
-      100% {background-position: right;width: 85%;}
-  }
-  @keyframes gradientAnimationMeters7{
-      0% {background-position: right;width:0%;}
-      50% {background-position: left;}
-      100% {background-position: right;width: 40%;}
-  }
   #ZahaanTypeWriter{
       display: flex;
       align-items: center;
@@ -140,108 +105,6 @@ body{
     list-style-type: none;
     margin: 0%;
   }
-  
-  
-  
-    .meter1{
-      display: block;
-      height: 100%;
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
-      background-size: 400%;
-      background-position: right;
-      width: 0%;
-      animation-iteration-count: 1;
-      animation: gradientAnimationMeters1 3s ease, gradientAnimation 7s infinite;
-      animation-play-state: paused;
-    }
-    .meter2{
-      display: block;
-      height: 100%;
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
-      background-size: 400%;
-      background-position: right;
-      width: 0%;
-      animation: gradientAnimationMeters2 3s ease, gradientAnimation 7s infinite;
-      animation-play-state: paused;
-    }
-    .meter3{
-      display: block;
-      height: 100%;
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
-      background-size: 400%;
-      background-position: right;
-      width: 0%;
-      animation:gradientAnimationMeters3 3s ease, gradientAnimation 7s infinite;
-      animation-play-state: paused;
-    }
-    .meter4{
-      display: block;
-      height: 100%;
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
-      background-size: 400%;
-      background-position: right;
-      width: 0%;
-      animation:gradientAnimationMeters4 3s ease, gradientAnimation 7s infinite;
-      animation-play-state: paused;
-    }
-    .meter5{
-      display: block;
-      height: 100%;
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
-      background-size: 400%;
-      background-position: right;
-      width: 0%;
-      animation:gradientAnimationMeters5 3s ease, gradientAnimation 7s infinite;
-      animation-play-state: paused;
-    }
-    .meter6{
-      display: block;
-      height: 100%;
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
-      background-size: 400%;
-      background-position: right;
-      width: 0%;
-      animation:gradientAnimationMeters6 3s ease, gradientAnimation 7s infinite;
-      animation-play-state: paused;
-    }
-    .meter7{
-      display: block;
-      height: 100%;
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-      background-image: linear-gradient(to left,#cc2b5e, #753a88,#185a9d);
-      background-size: 400%;
-      background-position: right;
-      width: 0%;
-      animation:gradientAnimationMeters7 3s ease, gradientAnimation 7s infinite;
-      animation-play-state: paused;
-    }
     .parentSkillsDiv{
       display: flex;
       flex-direction: row;
@@ -249,34 +112,38 @@ body{
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
       color: white;
       font-size: 30px;
-      width: 50vw;
-      height:48vh;
+      width: 50%;
+      height: 48vh;
       border: 1px solid white;
-      
-      
+      overflow: auto;
     }
     .skill{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin:5%;
+        margin:2.5rem;
         gap:10%;
         flex-wrap: wrap;
+        padding-bottom: 3rem;
     }
     .skillListItems{
         display: flex;
         flex-direction: column;
-        margin:0; 
+        margin:0.5rem 1rem 0.5rem 0rem; 
         height: 16.67%;
         align-items: center;
         
     }
-    .devicon-python-plain{
-        font-size: 3vh;
+    #skillIcons{
+        font-size: 2rem;
+        height: 100px;
+        width: 100px;    
     }
     .mySkills{
-        font-size: 3vh;
+        font-size: 2rem;
+        height: 100px;
+        width: 100px;   
         margin: 0;
     }
     .daddy{
@@ -286,7 +153,7 @@ body{
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 0%;
+        top: -3%;
     }
     .social-container{
         display: flex;
@@ -343,6 +210,7 @@ body{
       align-items: center;
       justify-self: center;
       position: relative;
+      top:-3%;
   }
   .projects{
       display: flex;
@@ -390,7 +258,7 @@ body{
   }
   .thirdscroll{
       position: relative;
-      bottom:3vh;
+      bottom:2.5rem;
   }
   .social3{
       margin: 0;
