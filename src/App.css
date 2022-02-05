@@ -197,6 +197,7 @@ body{
       position:relative;
       background-color: Transparent;
       border: none;
+      cursor: pointer;
   }
   .scrollicon{
       color:white;
@@ -208,7 +209,12 @@ body{
   
   }
   .secondscroll{
-      margin-top: 3%;
+    position: relative;
+    top: 9%;
+  }
+  .skillsNav{
+      position: relative;
+      top:12%;
   }
   #socialIcons{
       display: flex;
@@ -232,7 +238,7 @@ body{
     flex-direction: column;
     align-items: center;
     position: relative;
-    top:-10%;
+    top:-7%;
   }
   .projects{
       display: flex;
@@ -281,11 +287,13 @@ body{
   .thirdscroll{
       position: relative;
       bottom:2.5rem;
+      top: 2%;
+      cursor: pointer;
   }
   .social3{
       margin: 0;
       position: relative;
-      bottom: 3vh;
+      top:4%;
   }
   .daddy4{
       display: flex;

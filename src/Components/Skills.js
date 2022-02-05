@@ -30,7 +30,7 @@ export default function SkillList()
          <div className='secondscroll'><Link to='section3'smooth={true} ><button className='scrollButton2'><FontAwesomeIcon icon={faAngleDoubleDown} size="2x" className='scrollicon'></FontAwesomeIcon></button></Link>
 
          </div>
-         <div><SocialMedia/> </div> 
+         <div className='skillsNav'><SocialMedia/> </div> 
     </div>
     )
 }
