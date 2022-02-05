@@ -124,9 +124,7 @@ body{
         } */
     /* } */
     @media only screen and (min-width: 390px) and (max-width: 767px)
-    and (device-width: 428px) 
-    and (device-height: 926px) 
-    and (-webkit-device-pixel-ratio: 3) { 
+   { 
         .parentSkillsDiv{
             grid-template-columns: 1fr 1fr; 
             row-gap: 15%;
