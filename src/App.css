@@ -117,12 +117,6 @@ body{
       overflow: auto;
         
     }
-    /* @media (max-width:768px) and (min-width:481)
-    {
-        .parentSkillsDiv{
-            grid-template-columns: 1fr 1fr 1fr; 
-        } */
-    /* } */
     @media only screen and (min-width: 390px) and (max-width: 767px)
    { 
         .parentSkillsDiv{
@@ -131,25 +125,11 @@ body{
         }
 
     }
-    /* @media (max-width:480px)
-    {
-        .parentSkillsDiv{
-            grid-template-columns: 1fr 1fr; 
-            row-gap: 15%;
-        }
-    }
-    @media (max-width:732px)
-    {
-        .parentSkillsDiv{
-            grid-template-columns: 1fr; 
-            row-gap: 15%;
-        }
-
-    } */
+    
     .parentSkillsDivContainer{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
         color: white;
-        min-width: 50%;
+        min-width: 55%;
         border: 1px solid white;
         min-height:48vh;
         display:flex;
