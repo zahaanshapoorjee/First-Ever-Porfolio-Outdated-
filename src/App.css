@@ -177,7 +177,7 @@ body{
         align-items: center;
         justify-content: center;
         position: relative;
-        top: -3%;
+        top: -5%;
     }
     .social-container{
         display: flex;
@@ -234,7 +234,7 @@ body{
       align-items: center;
       justify-self: center;
       position: relative;
-      top:-3%;
+      top:-5%;
   }
   .projects{
       display: flex;
