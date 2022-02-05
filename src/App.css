@@ -121,18 +121,17 @@ body{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
-        margin:2.5rem;
-        gap:10%;
+        justify-content: center;    
         flex-wrap: wrap;
-        padding-bottom: 3rem;
+        margin: 2rem 2rem 1.5rem 3.8rem;
+        padding-bottom: 2.5rem;
     }
     .skillListItems{
         display: flex;
         flex-direction: column;
-        margin:0.5rem 1rem 0.5rem 0rem; 
-        height: 16.67%;
+        height: 2rem;
         align-items: center;
+        margin: 0.5rem 4rem 3rem 2.5rem
         
     }
     #skillIcons{
