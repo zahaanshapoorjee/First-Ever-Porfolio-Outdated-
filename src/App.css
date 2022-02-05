@@ -13,6 +13,12 @@ body{
       50% {background-position: left;}
       100% {background-position: right;}
   }
+  #root{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
   #ZahaanTypeWriter{
       display: flex;
       align-items: center;
