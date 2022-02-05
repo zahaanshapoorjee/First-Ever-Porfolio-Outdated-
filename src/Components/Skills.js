@@ -9,10 +9,10 @@ export default function SkillList()
         <div className='daddy'>
          <div className='firstscrollup'><Link to='top'smooth={true} ><FontAwesomeIcon icon={faAngleDoubleUp} size="2x" className='firstscrollupicon'></FontAwesomeIcon></Link></div>   
         <h1 className='skillsText'>SKILLS</h1>
-        <div className='parentSkillsDiv'> 
+        <div className='parentSkillsDivContainer'> 
         {/* flex direction row ^  */}
-           <div className='skill'>
                {/* items flex direction column */}
+               <div className='parentSkillsDiv'>
                      <div className="skillListItems"><i className="devicon-python-plain" id='skillIcons'></i><p className='mySkills'>Python</p></div>
                      <div className="skillListItems"><i className="devicon-html5-plain" id='skillIcons'></i><p className='mySkills'>HTML</p></div>
                      <div className="skillListItems"><i className="devicon-css3-plain" id='skillIcons'></i><p className='mySkills'>CSS</p></div>
@@ -25,10 +25,7 @@ export default function SkillList()
                      <div className="skillListItems"><i className="devicon-github-original" id='skillIcons'></i><p className='mySkills'>GitHub</p></div>
                      <div className="skillListItems"><i className="devicon-heroku-original" id='skillIcons'></i><p className='mySkills'>Heroku</p></div>
                      <div className="skillListItems"><i className="devicon-cplusplus-plain" id='skillIcons'></i><p className='mySkills'>C++</p></div>
-
-           </div>
-           
-            
+                     </div> 
          </div>
          <div className='secondscroll'><Link to='section3'smooth={true} ><button className='scrollButton2'><FontAwesomeIcon icon={faAngleDoubleDown} size="2x" className='scrollicon'></FontAwesomeIcon></button></Link>
 
