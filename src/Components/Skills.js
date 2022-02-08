@@ -23,7 +23,7 @@ export default function SkillList()
                      <div className="skillListItems"><i className="devicon-nodejs-plain" id='skillIcons'></i><p className='mySkills'>Node.js</p></div>
                      <div className="skillListItems"><i className="devicon-mongodb-plain" id='skillIcons'></i><p className='mySkills'>MongoDB</p></div>
                      <div className="skillListItems"><i className="devicon-github-original" id='skillIcons'></i><p className='mySkills'>GitHub</p></div>
-                     <div className="skillListItems"><i className="devicon-heroku-original" id='skillIcons'></i><p className='mySkills'>Heroku</p></div>
+                     <div className="skillListItems"><i className="devicon-socketio-original" id='skillIcons'></i><p className='mySkills'>Socket.IO</p></div>
                      <div className="skillListItems"><i className="devicon-cplusplus-plain" id='skillIcons'></i><p className='mySkills'>C++</p></div>
                      </div> 
          </div>
